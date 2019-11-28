@@ -15,7 +15,7 @@ public class IndexController {
    public Integer RetornarMultiplo(@PathVariable("numero") Integer numero) {
 		
 	   if (numero%5 == 0) {
-			  numero = numero*5;
+			  numero = numero+5;
 			 }else
 				 {numero = -1;}
 	   
